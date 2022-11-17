@@ -27,7 +27,7 @@
    Class.forName("com.mysql.jdbc.Driver");
    conn=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb","root","Sheetaldixit1234");
    st=conn.createStatement();
-   String qry="select * from student"; 
+   String qry="select * from xistudent"; 
    rs=st.executeQuery(qry);
    while(rs.next())
    {

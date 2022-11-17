@@ -49,10 +49,18 @@ public class SecuredLogin extends HttpServlet {
 			
 		
 			out.println("<h2>Welcome "+ username + " to MyAcademy</h2>");
-			out.println("<a href=\"Student.jsp\">Go To  Student Portal</a>");
-			out.println("<p>");
-				
-			out.println("<a href=\"Teacher.jsp\">Go To Teacher Portal</a>");
+			out.println("<a href=\"xiStudent.jsp\">Click here for XI Student List</a><p>");
+						
+			out.println("<a href=\"xiiStudent.jsp\">Click here for XII Student List</a><p>");
+			
+			out.println("<a href=\"xi_sub.jsp\">Click here to know about XI Class</a><p>");
+			
+			out.println("<a href=\"xii_sub.jsp\">Click here to know about XII Class</a><p>");
+								
+			out.println("<a href=\"xiRoll.html\">Click here to XI-Roll no wise information</a><p>");
+			
+			out.println("<a href=\"xiiRoll.html\">Click here to XII-Roll no wise information</a><p>");
+							
 			out.println("</body>");
 			out.println("</html>");
 			out.close();	
